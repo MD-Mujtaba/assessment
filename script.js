@@ -22,7 +22,6 @@ function selectOption(element) {
     let dropdownContainer = element.querySelector('.dropdowns');
     if (!dropdownContainer) {
       // Create the first dropdown and its expandable
-      const label1 = document.createElement('label');
       const dropdown1 = document.createElement('select');
       dropdown1.innerHTML = `
         <option value="option1">Option 1</option>

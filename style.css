@@ -1,0 +1,79 @@
+*{
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    margin: auto;
+    padding: 10px;
+}
+
+.heading{
+    font: lighter 1.3rem/1 "Arial", sans-serif;
+    color: #007F61;
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.pair-1, .pair-2, .pair-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    padding: 5px 25px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.info{
+    line-height: 0;
+}
+
+.radio-price{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.line-through{
+    text-decoration: line-through;
+    color: #9F9F9F
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.shipping {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.green-text{
+    color: #007F61;
+    
+}
+
+.add-to-cart{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background: #007F61;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.copywright{
+    color:#000000;
+    margin-left: auto;
+}
+

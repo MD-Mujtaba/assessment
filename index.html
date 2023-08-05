@@ -1,75 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assessment</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <title>Assessment</title>
 </head>
+
 <body>
     <div class="card">
-        <div class="heading">
-            <h4>Bundle & Save</h4>
+        <h2>Bundle & Save</h2>
+        <div class="options">
+            <input type="radio" name="option" id="pair1" value="pair1">
+            <div class="pair">
+                <label for="pair1">1 Pair</label>
+                <h4>DKK 195.00</h4>
+            </div>
+            <span class="discount">50% OFF</span>
         </div>
-        <!-- 1st Rectangle -->
-        <div class="pair-1">
-            <div class="radio-price">
-                <input type="radio" name="pair" id="pair-1">
-                <div class="info">
-                    <h4>1 Pair</h4>
-                    <h4 class="price">DKK 195.00</h4>
-                </div>
+        <div class="options">
+            <input type="radio" name="option" id="pair2" value="pair2">
+            <div class="pair">
+                <label for="pair2">2 Pair</label>
+                <h4>DKK 345.00</h4>
             </div>
-            <div class="discount">
-                <h4>50% OFF</h4>
-            </div>
-        </div>
-        <!-- 2nd Rectangle -->
-        <div class="pair-2">
-            <div class="radio-price">
-                <input type="radio" name="pair" id="pair-1">
-                <div class="info">
-                    <h4>2 Pair</h4>
-                    <h4 class="price">DKK 345.00</h4>
-                </div>
-                <h5 class="line-through">DKK 196.00</h5>
-            </div>
-            <div class="discount info">
-                <h4>Most Popular</h4>
-                <h4>40% OFF</h4>
+            <span class="sale">DKK 195.00</span>
+            <div class="popular">
+                <h4 class="green-text">Most Popular</h4>
+                <span class="discount">40% OFF</span>
             </div>
         </div>
-        <!-- 3rd Rectangle -->
-        <div class="pair-3">
-            <div class="radio-price">
-                <input type="radio" name="pair" id="pair-1">
-                <div class="info">
-                    <h4>3 Pair</h4>
-                    <h4 class="price">DKK 528.00</h4>
-                </div>
+        <div class="options">
+            <input type="radio" name="option" id="pair3" value="pair3">
+            <div class="pair">
+                <label for="pair3">3 Pair</label>
+                <h4>DKK 528.00</h4>
             </div>
-            <div class="discount">
-                <h4>60% OFF</h4>
-            </div>
+            <span class="discount">60% OFF</span>
         </div>
         <div class="shipping">
-            <h4 class="green-text">
-                Free 2 Day Shipping
-            </h4>
-            <h4>
-                Total : <strong>DKK 360.00</strong>
-            </h4>
+            <h4 class="free-shipping">Free 2 Day Shipping</h4>
+            <label for="">Total : <strong>DKK 360.00</strong></label>
         </div>
         <button class="add-to-cart">
             <i class="fa-solid fa-plus"></i> Add to Cart
         </button>
-        <div class="copywright">
-            <p>
-                <em>&copy; Powered by Pumper</em>
-            </p>
-        </div>
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>

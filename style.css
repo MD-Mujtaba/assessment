@@ -112,6 +112,18 @@ body {
   background-color: #F4FBF9;
 }
 
+/* Add padding to dropdowns for better alignment */
+.dropdowns{
+  padding: 5px;
+}
+
+/* Add Gap Between Label and Dropdowns */
+.pair-dropdowns {
+  display: flex;
+  gap: 7px;
+  margin-bottom: 7px;
+}
+
 .margin-left{
   margin-left: 10px;
 }

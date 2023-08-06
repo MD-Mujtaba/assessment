@@ -10,51 +10,56 @@
 </head>
 
 <body>
-    <div class="card">
-        <h2>Bundle & Save</h2>
-        <div class="expandable" onclick="selectOption(this)">
-            <div class="options">
-                <input type="radio" name="option" id="pair1" value="pair1">
-                <div class="pair">
-                    <label for="pair1">1 Pair</label>
-                    <h4>DKK 195.00</h4>
-                </div>
-                <span class="discount">50% OFF</span>
-            </div>
-        </div>
-        <div class="expandable" onclick="selectOption(this)">
-
-
-            <div class="options">
-                <input type="radio" name="option" id="pair2" value="pair2">
-                <div class="pair">
-                    <label for="pair2">2 Pair</label>
-                    <h4>DKK 345.00</h4>
-                </div>
-                <span class="sale">DKK 195.00</span>
-                <div class="popular">
-                    <h4 class="green-text">Most Popular</h4>
-                    <span class="discount">40% OFF</span>
+    <!-- Wrap the card in a container for responsiveness -->
+    <div class="container">
+        <div class="card">
+            <h2>Bundle & Save</h2>
+            <!-- 1 Pair Section Starts From Here-->
+            <div class="expandable" onclick="selectOption(this)">
+                <div class="options">
+                    <input type="radio" name="option" id="pair1" value="pair1">
+                    <div class="pair">
+                        <label for="pair1">1 Pair</label>
+                        <h4>DKK 195.00</h4>
+                    </div>
+                    <span class="discount">50% OFF</span>
                 </div>
             </div>
-        </div>
-        <div class="expandable" onclick="selectOption(this)">
-            <div class="options">
-                <input type="radio" name="option" id="pair3" value="pair3">
-                <div class="pair">
-                    <label for="pair3">3 Pair</label>
-                    <h4>DKK 528.00</h4>
+            <!-- 2 Pair Section Starts From Here-->
+            <div class="expandable" onclick="selectOption(this)">
+                <div class="options">
+                    <input type="radio" name="option" id="pair2" value="pair2">
+                    <div class="pair">
+                        <label for="pair2">2 Pair</label>
+                        <h4>DKK 345.00</h4>
+                    </div>
+                    <span class="sale">DKK 195.00</span>
+                    <div class="popular">
+                        <h4 class="green-text">Most Popular</h4>
+                        <span class="discount">40% OFF</span>
+                    </div>
                 </div>
-                <span class="discount">60% OFF</span>
             </div>
+            <!-- 3 Pair Section Starts From Here-->
+            <div class="expandable" onclick="selectOption(this)">
+                <div class="options">
+                    <input type="radio" name="option" id="pair3" value="pair3">
+                    <div class="pair">
+                        <label for="pair3">3 Pair</label>
+                        <h4>DKK 528.00</h4>
+                    </div>
+                    <span class="discount">60% OFF</span>
+                </div>
+            </div>
+            <!-- Card Footer -->
+            <div class="shipping">
+                <h4 class="free-shipping">Free 2 Day Shipping</h4>
+                <label for="">Total : <strong>DKK 360.00</strong></label>
+            </div>
+            <button class="add-to-cart">
+                <i class="fa-solid fa-plus"></i> Add to Cart
+            </button>
         </div>
-        <div class="shipping">
-            <h4 class="free-shipping">Free 2 Day Shipping</h4>
-            <label for="">Total : <strong>DKK 360.00</strong></label>
-        </div>
-        <button class="add-to-cart">
-            <i class="fa-solid fa-plus"></i> Add to Cart
-        </button>
     </div>
     <script src="script.js"></script>
 </body>

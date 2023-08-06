@@ -112,6 +112,22 @@ body {
   background-color: #F4FBF9;
 }
 
+/* Hide Labels When Div Not Selected */
+.size-label, .color-label{
+  display: none;
+}
+
+.selected .size-label{
+  margin-right: 12px;
+  padding-left: 30px;
+  
+}
+
+/* Display Labels When Div Selected */
+.selected .color-label,.selected .size-label{
+  display: inline-block;
+}
+
 /* Add padding to dropdowns for better alignment */
 .dropdowns{
   padding: 5px;

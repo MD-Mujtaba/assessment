@@ -73,6 +73,14 @@ function selectOption(element) {
     }
 
     // Add the dropdown container to the "expandable" div
+    const sizeLabel = document.createElement('label');
+    sizeLabel.textContent = 'Size';
+    sizeLabel.classList.add('size-label');
+    const colorLabel = document.createElement('label');
+    colorLabel.textContent = 'Colour';
+    colorLabel.classList.add('color-label');
+    element.appendChild(sizeLabel);
+    element.appendChild(colorLabel);
     element.appendChild(dropdownContainer);
   }
 
